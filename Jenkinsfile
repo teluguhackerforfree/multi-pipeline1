@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('source code') {
+        stage('source code for development') {
             steps {
                 echo 'scm'
 				git 'https://github.com/teluguhackerforfree/multidatapro.git'
